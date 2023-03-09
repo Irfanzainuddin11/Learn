@@ -1,0 +1,141 @@
+package main
+
+import "fmt"
+
+func main(){
+	
+	var i = 0
+	for i < 5 {
+		fmt.Println("Nilai i =", i)
+		i++
+	}
+
+	var j = 0
+	for j < 5 {
+		fmt.Println("Nilai j =", j)
+		j++
+	}
+
+	alphabetRusia := 'С'
+	u1 := alphabetRusia
+	outerloop:
+		for i := 0; i < 1; i++ {
+			fmt.Printf("character %U ", u1)
+			fmt.Print("'С' ")
+			for j := 0; j < 1; j++ {
+				fmt.Print("starts at byte position ")
+				if i == 1 {
+					break outerloop
+				}
+
+				fmt.Print(j, " ")
+			}
+			fmt.Print("\n")
+		}
+
+	alphabetRusia1 := 'А'
+	u2 := alphabetRusia1
+	outerloop1:
+		for i := 2; i < 3; i++ {
+			fmt.Printf("character %U ", u2)
+			fmt.Print("'А' ")
+			for j := 2; j < 3; j++ {
+				fmt.Print("starts at byte position ")
+				if i == 3 {
+					break outerloop1
+				}
+
+				fmt.Print(j, " ")
+			}
+			fmt.Print("\n")
+		}
+
+	alphabetRusia2 := 'Ш'
+	u3 := alphabetRusia2
+	outerloop2:
+		for i := 4; i < 5; i++ {
+			fmt.Printf("character %U ", u3)
+			fmt.Print("'Ш' ")
+			for j := 4; j < 5; j++ {
+				fmt.Print("starts at byte position ")
+				if i == 5 {
+					break outerloop2
+				}
+	
+				fmt.Print(j, " ")
+			}
+			fmt.Print("\n")
+		}
+
+	alphabetRusia3 := 'А'
+	u4 := alphabetRusia3
+	outerloop3:
+		for i := 6; i < 7; i++ {
+			fmt.Printf("character %U ", u4)
+			fmt.Print("'А' ")
+			for j := 6; j < 7; j++ {
+				fmt.Print("starts at byte position ")
+				if i == 7 {
+					break outerloop3
+				}
+		
+				fmt.Print(j, " ")
+			}
+			fmt.Print("\n")
+		}
+
+	alphabetRusia4 := 'Р'
+	u5 := alphabetRusia4
+	outerloop4:
+		for i := 8; i < 9; i++ {
+			fmt.Printf("character %U ", u5)
+			fmt.Print("'Р' ")
+			for j := 8; j < 9; j++ {
+				fmt.Print("starts at byte position ")
+				if i == 9 {
+					break outerloop4
+				}
+			
+				fmt.Print(j, " ")
+			}
+			fmt.Print("\n")
+		}
+
+	alphabetRusia5 := 'В'
+	u6 := alphabetRusia5
+	outerloop5:
+		for i := 10; i < 11; i++ {
+			fmt.Printf("character %U ", u6)
+			fmt.Print("'В' ")
+			for j := 10; j < 11; j++ {
+				fmt.Print("starts at byte position ")
+				if i == 11 {
+					break outerloop5
+				}
+				
+				fmt.Print(j, " ")
+			}
+			fmt.Print("\n")
+		}
+
+	alphabetRusia6 := 'О'
+	u7 := alphabetRusia6
+	outerloop6:
+		for i := 12; i < 13; i++ {
+			fmt.Printf("character %U ", u7)
+			fmt.Print("'О' ")
+			for j := 12; j < 13; j++ {
+				fmt.Print("starts at byte position ")
+				if i == 13 {
+					break outerloop6
+				}
+				
+				fmt.Print(j, " ")
+			}
+			fmt.Print("\n")
+		}
+
+	for j := 6; j < 11; j++ {
+    fmt.Println("Nilai j = ", j)
+	}
+}
